@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'BTS Querétaro Guide',
   tagline: 'Centro de Documentación, Procesos CMMI y Operaciones de Oficina',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/btsLogo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -79,7 +79,7 @@ const config: Config = {
       title: 'BTS Querétaro',
       logo: {
         alt: 'BTS Querétaro Logo',
-        src: 'img/logo.svg',
+        src: 'img/btsLogo.png',
       },
       items: [
         {
