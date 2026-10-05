@@ -15,11 +15,12 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://queretaro.bts.internal',
-  baseUrl: '/',
+  url: 'https://josecarlospa.github.io',
+  baseUrl: '/BTSQroGuide/',
+  trailingSlash: false,
 
-  organizationName: 'bts',
-  projectName: 'bts-qro-guide',
+  organizationName: 'JoseCarlosPa',
+  projectName: 'BTSQroGuide',
 
   onBrokenLinks: 'throw',
 
@@ -75,7 +76,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Procesos & Documentación',
+          label: 'Bienvenida',
         },
         {
           to: '/blog',
@@ -83,8 +84,8 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com',
-          label: 'Repositorio',
+          href: 'https://github.com/JoseCarlosPa/BTSQroGuide',
+          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -96,29 +97,8 @@ const config: Config = {
           title: 'Documentación',
           items: [
             {
-              label: 'Introducción',
+              label: 'Bienvenida',
               to: '/docs/intro',
-            },
-            {
-              label: 'Marco CMMI',
-              to: '/docs/cmmi/introduccion',
-            },
-            {
-              label: 'Plantilla de Proceso',
-              to: '/docs/cmmi/plantilla-proceso',
-            },
-          ],
-        },
-        {
-          title: 'Oficina Querétaro',
-          items: [
-            {
-              label: 'Onboarding & Bienvenida',
-              to: '/docs/oficina-qro/onboarding',
-            },
-            {
-              label: 'Instalaciones y Normas',
-              to: '/docs/oficina-qro/instalaciones',
             },
           ],
         },
@@ -126,13 +106,22 @@ const config: Config = {
           title: 'Comunidad & Comunicación',
           items: [
             {
-              label: 'Noticias / Blog',
+              label: 'Noticias & Blog',
               to: '/blog',
             },
           ],
         },
+        {
+          title: 'Código',
+          items: [
+            {
+              label: 'Repositorio GitHub',
+              href: 'https://github.com/JoseCarlosPa/BTSQroGuide',
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BTS Querétaro. Documentación interna y gestión de procesos.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BTS Querétaro. Construido con Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

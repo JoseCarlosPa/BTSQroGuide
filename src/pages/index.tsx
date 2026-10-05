@@ -21,12 +21,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Comenzar Exploración 🧭
+            Ir a la Bienvenida 👋
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/docs/cmmi/introduccion">
-            Marco de Procesos CMMI 📋
+            href="https://github.com/JoseCarlosPa/BTSQroGuide">
+            Ver en GitHub 🐙
           </Link>
         </div>
       </div>
