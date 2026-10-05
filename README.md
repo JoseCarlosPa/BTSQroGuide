@@ -1,6 +1,9 @@
 # 📘 BTS Querétaro Guide
 
-Portal centralizado de documentación, procesos basados en **CMMI** y operaciones para la oficina de **BTS Querétaro**, construido con [Docusaurus 3](https://docusaurus.io/).
+Portal centralizado de documentación, procesos y operaciones para la oficina de **BTS Querétaro**, construido con [Docusaurus 3](https://docusaurus.io/).
+
+- 🌐 **Sitio en vivo (GitHub Pages)**: [https://josecarlospa.github.io/BTSQroGuide/](https://josecarlospa.github.io/BTSQroGuide/)
+- 🐙 **Repositorio**: [https://github.com/JoseCarlosPa/BTSQroGuide](https://github.com/JoseCarlosPa/BTSQroGuide)
 
 ---
 
@@ -19,52 +22,27 @@ npm install
 ```bash
 npm start
 ```
-El portal estará disponible automáticamente en [http://localhost:3000](http://localhost:3000) con recarga en caliente (*hot-reloading*).
+El portal estará disponible en [http://localhost:3000/BTSQroGuide/](http://localhost:3000/BTSQroGuide/) con recarga en caliente (*hot-reloading*).
 
 ### 4. Generar compilación de producción
 ```bash
 npm run build
 ```
-Los archivos estáticos se generarán en la carpeta `build/`. Puedes previsualizarlos localmente con:
+Puedes previsualizar el resultado compilado localmente con:
 ```bash
 npm run serve
 ```
 
 ---
 
-## 📂 Estructura del Proyecto
+## ⚙️ Despliegue Automático en GitHub Pages
 
-```text
-BTSQroGuide/
-├── docs/                                # Documentación principal
-│   ├── intro.md                         # Portada y bienvenida
-│   ├── cmmi/                            # Marco y procesos CMMI
-│   │   ├── introduccion.md              # Resumen del modelo de madurez
-│   │   ├── plantilla-proceso.md         # Plantilla estándar para nuevos procesos
-│   │   ├── 01-gestion-proyectos/        # Planificación (PP), Monitoreo (PMC)
-│   │   ├── 02-ingenieria-desarrollo/    # Requerimientos (RD), Solución (TS), QA
-│   │   └── 03-soporte-calidad/          # Configuración (CM), PPQA, Métricas
-│   └── oficina-qro/                     # Operación local de Querétaro
-│       ├── onboarding.md                # Guía de bienvenida para nuevos ingresos
-│       ├── instalaciones.md             # Uso de salas, horarios y normas
-│       └── herramientas-sistemas.md     # Accesos, VPNs, GitHub, Jira
-├── blog/                                # Anuncios, notas de versión y eventos
-├── src/                                 # Componentes React y estilos personalizados
-├── static/                              # Recursos estáticos (imágenes, logos)
-├── docusaurus.config.ts                 # Configuración general del sitio
-└── sidebars.ts                          # Configuración de menús de navegación lateral
-```
+El proyecto incluye un flujo de trabajo de GitHub Actions en [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) que compila y publica automáticamente el sitio en cada `push` a la rama `main`.
 
----
-
-## 📝 ¿Cómo agregar o documentar un nuevo proceso?
-
-1. Ve a [`docs/cmmi/plantilla-proceso.md`](file:///docs/cmmi/plantilla-proceso.md) y copia el formato base.
-2. Crea un archivo `.md` dentro de la subcarpeta que corresponda (`01-gestion-proyectos/`, `02-ingenieria-desarrollo/` o `03-soporte-calidad/`).
-3. Completa los campos:
-   - Propósito y Alcance.
-   - Matriz RACI de responsabilidades.
-   - Flujo del proceso (puedes usar diagramas `mermaid`).
-   - Entradas, Salidas y Métricas.
-4. Valida los cambios localmente con `npm start`.
-5. Envía un Pull Request para revisión del equipo.
+### Activación requerida en GitHub (una sola vez):
+1. Ve a tu repositorio en GitHub: [https://github.com/JoseCarlosPa/BTSQroGuide](https://github.com/JoseCarlosPa/BTSQroGuide).
+2. Entra a **Settings** > **Pages** (menú izquierdo).
+3. En la sección **Build and deployment**:
+   - Bajo **Source**, cambia la opción a **GitHub Actions**.
+4. ¡Listo! A partir de ese momento, cada commit en `main` desplegará automáticamente la versión más reciente en:
+   👉 **[https://josecarlospa.github.io/BTSQroGuide/](https://josecarlospa.github.io/BTSQroGuide/)**
