@@ -17,7 +17,7 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://josecarlospa.github.io',
   baseUrl: '/BTSQroGuide/',
-  trailingSlash: false,
+  trailingSlash: true,
 
   organizationName: 'JoseCarlosPa',
   projectName: 'BTSQroGuide',
@@ -80,6 +80,8 @@ const config: Config = {
       logo: {
         alt: 'BTS Querétaro Logo',
         src: 'img/btsLogo.png',
+        width: 32,
+        height: 32,
       },
       items: [
         {

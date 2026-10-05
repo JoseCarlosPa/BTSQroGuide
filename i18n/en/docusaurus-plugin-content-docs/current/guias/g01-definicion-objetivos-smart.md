@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: G04 - SMART Goals Definition
+title: G01 - SMART Goals Definition
 description: Practical and methodological guide for defining effective, measurable, and aligned goals using SMART criteria.
 tags:
   - guides
@@ -9,7 +9,7 @@ tags:
   - goals
 ---
 
-# G04 - Guide for Defining SMART Goals
+# G01 - Guide for Defining SMART Goals
 
 This guide assists team members in properly formulating individual, project, and departmental goals using the **SMART** methodology to ensure clarity, alignment, and tangible results.
 
