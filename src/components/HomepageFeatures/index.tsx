@@ -1,43 +1,44 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 type FeatureItem = {
-  title: string;
+  title: ReactNode;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Procesos Estandarizados (CMMI)',
+    title: <Translate id="feature.cmmi.title">Procesos Estandarizados (CMMI)</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
-      <>
+      <Translate id="feature.cmmi.description">
         Alineación con el modelo CMMI para gestión de proyectos, ingeniería
         de software, control de versiones y aseguramiento de calidad predecible.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Operación Oficina Querétaro',
+    title: <Translate id="feature.ops.title">Operación Oficina Querétaro</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
+      <Translate id="feature.ops.description">
         Guías de bienvenida (onboarding), uso de instalaciones, dinámicas de
         equipo y directorio de herramientas en un solo punto de referencia.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Docs as Code & Mejora Continua',
+    title: <Translate id="feature.docs.title">Docs as Code & Mejora Continua</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
+      <Translate id="feature.docs.description">
         Documentación ágil y versionada en Git. Cualquier colaborador puede
         proponer actualizaciones mediante Pull Requests y revisiones transparentes.
-      </>
+      </Translate>
     ),
   },
 ];

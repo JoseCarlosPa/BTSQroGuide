@@ -1,0 +1,30 @@
+{
+  "link.title.Documentación": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=Documentación in the footer"
+  },
+  "link.title.Comunidad & Comunicación": {
+    "message": "Community & Communication",
+    "description": "The title of the footer links column with title=Comunidad & Comunicación in the footer"
+  },
+  "link.title.Código": {
+    "message": "Code",
+    "description": "The title of the footer links column with title=Código in the footer"
+  },
+  "link.item.label.Bienvenida": {
+    "message": "Welcome",
+    "description": "The label of footer link with label=Bienvenida linking to /docs/intro"
+  },
+  "link.item.label.Noticias & Blog": {
+    "message": "News & Blog",
+    "description": "The label of footer link with label=Noticias & Blog linking to /blog"
+  },
+  "link.item.label.Repositorio GitHub": {
+    "message": "GitHub Repository",
+    "description": "The label of footer link with label=Repositorio GitHub linking to https://github.com/JoseCarlosPa/BTSQroGuide"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 BTS Querétaro. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

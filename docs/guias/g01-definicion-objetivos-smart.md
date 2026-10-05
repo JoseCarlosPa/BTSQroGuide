@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: G04 - Definición de Objetivos SMART
+title: G01 - Definición de Objetivos SMART
 description: Guía práctica y metodológica para definir objetivos eficaces, medibles y alineados utilizando el criterio SMART.
 tags:
   - guías
@@ -9,7 +9,7 @@ tags:
   - objetivos
 ---
 
-# G04 - Guía para la Definición de Objetivos SMART
+# G01 - Guía para la Definición de Objetivos SMART
 
 Esta guía orienta a los miembros del equipo en la correcta formulación de objetivos individuales, de proyecto y departamentales, utilizando la metodología **SMART** para asegurar claridad, alineación y resultados tangibles.
 
@@ -154,11 +154,6 @@ Antes de dar por formalizado tu objetivo, verifica si cumple con todos los punto
 
 ## 👥 Control del Documento e Historial
 
-### Autores Originales (Taro IT)
-- **María de los Ángeles Contreras Anaya**
-- **Eduardo Andrés Castillo Perera**
-- **Adolfo Acosta Castro**
-
 ### Adaptación y Mejora Continua (BTS Querétaro)
 - **José Carlos Pasillas**
 
@@ -166,7 +161,5 @@ Antes de dar por formalizado tu objetivo, verifica si cumple con todos los punto
 
 | Versión | Fecha | Cambios Principales |
 |:---:|:---:|---|
-| **3.0** | 2026-10 | Modernización para **BTS Querétaro**: integración de fórmula de redacción, tabla comparativa Antes vs. Después, checklist de autoevaluación, diagramas Mermaid y corrección de redacción. |
-| **2.0** | - | Institucionalización del asset como guía oficial. |
-| **1.1** | - | Refactorización de formato de proceso a guía. |
-| **1.0** | - | Creación de la versión inicial del proceso de definición de objetivos. |
+| **1.0** | 2026-10 | Modernización para **BTS Querétaro**: integración de fórmula de redacción, tabla comparativa Antes vs. Después, checklist de autoevaluación, diagramas Mermaid y corrección de redacción. |
+

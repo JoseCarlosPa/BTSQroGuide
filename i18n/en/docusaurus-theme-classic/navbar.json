@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "BTS Querétaro",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "BTS Querétaro Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Bienvenida": {
+    "message": "Welcome",
+    "description": "Navbar item with label Bienvenida"
+  },
+  "item.label.Noticias & Anuncios": {
+    "message": "News & Announcements",
+    "description": "Navbar item with label Noticias & Anuncios"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

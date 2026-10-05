@@ -26,7 +26,17 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'es',
-    locales: ['es'],
+    locales: ['es', 'en'],
+    localeConfigs: {
+      es: {
+        label: 'Español',
+        htmlLang: 'es-MX',
+      },
+      en: {
+        label: 'English',
+        htmlLang: 'en-US',
+      },
+    },
   },
 
   markdown: {
@@ -86,6 +96,10 @@ const config: Config = {
         {
           href: 'https://github.com/JoseCarlosPa/BTSQroGuide',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],

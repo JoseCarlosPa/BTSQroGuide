@@ -34,7 +34,7 @@ Actualmente nos encontramos preparando la estructura y definiendo los activos in
 ## 📚 Guías Prácticas Disponibles
 
 Ya puedes consultar las primeras guías metodológicas del equipo:
-- 🎯 **[G04 - Definición de Objetivos SMART](./guias/g04-definicion-objetivos-smart.md)**: Criterios, fórmula de redacción, ejemplos comparativos y checklist para formular objetivos claros y verificables.
+- 🎯 **[G01 - Definición de Objetivos SMART](/docs/guias/g01-definicion-objetivos-smart)**: Criterios, fórmula de redacción, ejemplos comparativos y checklist para formular objetivos claros y verificables.
 
 :::tip ¿Quieres sugerir o colaborar?
 Este sitio está construido bajo la filosofía de *Docs as Code*. Todos los contenidos están gestionados en nuestro repositorio de [GitHub](https://github.com/JoseCarlosPa/BTSQroGuide).

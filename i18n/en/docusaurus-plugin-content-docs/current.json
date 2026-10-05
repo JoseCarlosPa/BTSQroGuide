@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Guías": {
+    "message": "Guías",
+    "description": "The label for category 'Guías' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Guías.link.generated-index.description": {
+    "message": "Guías prácticas y metodológicas para la operación, gestión y trabajo diario en el equipo.",
+    "description": "The generated-index page description for category 'Guías' in sidebar 'docsSidebar'"
+  }
+}
