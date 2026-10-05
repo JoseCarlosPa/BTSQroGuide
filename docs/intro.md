@@ -29,6 +29,13 @@ Actualmente nos encontramos preparando la estructura y definiendo los activos in
 3. **Soporte y Calidad**: Control de configuración y auditorías.
 4. **Guía de Oficina**: Onboarding, herramientas e instalaciones locales.
 
+---
+
+## 📚 Guías Prácticas Disponibles
+
+Ya puedes consultar las primeras guías metodológicas del equipo:
+- 🎯 **[G04 - Definición de Objetivos SMART](./guias/g04-definicion-objetivos-smart.md)**: Criterios, fórmula de redacción, ejemplos comparativos y checklist para formular objetivos claros y verificables.
+
 :::tip ¿Quieres sugerir o colaborar?
 Este sitio está construido bajo la filosofía de *Docs as Code*. Todos los contenidos están gestionados en nuestro repositorio de [GitHub](https://github.com/JoseCarlosPa/BTSQroGuide).
 :::
