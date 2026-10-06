@@ -4,11 +4,19 @@
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Guías": {
-    "message": "Guías",
+    "message": "Guides",
     "description": "The label for category 'Guías' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Guías.link.generated-index.description": {
-    "message": "Guías prácticas y metodológicas para la operación, gestión y trabajo diario en el equipo.",
+    "message": "Practical and methodological guides for team operations, management, and daily workflows.",
     "description": "The generated-index page description for category 'Guías' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Plantillas": {
+    "message": "Templates",
+    "description": "The label for category 'Plantillas' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Plantillas.link.generated-index.description": {
+    "message": "Official templates and standard formats for authoring guides, processes, and office documentation assets.",
+    "description": "The generated-index page description for category 'Plantillas' in sidebar 'docsSidebar'"
   }
 }

@@ -162,8 +162,8 @@ Al completar satisfactoriamente esta guía, se obtienen los siguientes artefacto
 
 ## 📚 Referencias y Lecturas Complementarias
 
-- 📖 **[There’s a S.M.A.R.T. way to write management’s goals and objectives](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf)** — *George T. Doran (1981, Management Review, Vol. 70, Issue 11)*. Artículo seminal que originó la metodología SMART.
-- 📖 **[Measure What Matters: OKRs](https://www.whatmatters.com/)** — *John Doerr (2018, Portfolio/Penguin)*. Metodología de Objetivos y Resultados Clave para conectar metas SMART con la visión organizacional.
+- 📖 **[There’s a S.M.A.R.T. way to write management’s goals and objectives](https://www.tableau.com/es-mx/learn/articles/smart-goals-criteria)** — *George T. Doran (1981, Management Review, Vol. 70, Issue 11)*. Artículo seminal que originó la metodología SMART.
+- 📖 **[Measure What Matters: OKRs](https://archivos.crecimiento.ws/wp-content/uploads/2021/10/Mide-lo-que-importa-pdf.pdf)** — *John Doerr (2018, Portfolio/Penguin)*. Metodología de Objetivos y Resultados Clave para conectar metas SMART con la visión organizacional.
 
 ---
 
