@@ -35,6 +35,7 @@ We are currently setting up the structure and defining initial assets. The follo
 
 You can now check the team's first methodological guides:
 - 🎯 **[G01 - SMART Goals Definition](/docs/guias/g01-definicion-objetivos-smart)**: Criteria, drafting formula, comparative examples, and validation checklist.
+- 🌳 **[G02 - Root Cause Analysis: The 5 Whys (Nested Whys)](/docs/guias/g02-analisis-causa-raiz-5-porques)**: Sakichi Toyoda's technique for investigating failures, multi-dimensional branching, and systemic countermeasures.
 
 :::tip Want to suggest or collaborate?
 This site is built following the *Docs as Code* philosophy. All content is managed directly in our [GitHub Repository](https://github.com/JoseCarlosPa/BTSQroGuide).
