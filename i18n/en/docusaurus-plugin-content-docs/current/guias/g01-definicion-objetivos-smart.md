@@ -152,21 +152,43 @@ Before finalizing your goal, verify if it satisfies all points:
 
 ---
 
-## 👥 Document Control & History
+## 📦 Outputs & Deliverables
 
-### Original Authors (Taro IT)
-- **María de los Ángeles Contreras Anaya**
-- **Eduardo Andrés Castillo Perera**
-- **Adolfo Acosta Castro**
+Completing this guide produces the following verifiable deliverables:
+- **Formal SMART Goal Statement**: Statement drafted using the standard formula and verified with the checklist.
+- **Jira / Project Plan Record**: Ticket, milestone, or epic containing quantitative acceptance criteria and explicit deadlines.
 
-### Adaptation & Continuous Improvement (BTS Querétaro)
-- **José Carlos Pasillas**
+---
+
+## 📚 References & Further Reading
+
+- 📖 **[There’s a S.M.A.R.T. way to write management’s goals and objectives](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf)** — *George T. Doran (1981, Management Review, Vol. 70, Issue 11)*. Seminal article introducing the SMART criteria.
+- 📖 **[Measure What Matters: OKRs](https://www.whatmatters.com/)** — *John Doerr (2018, Portfolio/Penguin)*. Methodology for connecting SMART goals to overarching organizational vision.
+
+---
+
+## 👥 Document Control
+
+### Asset Metadata
+
+| Field | Detail |
+|---|---|
+| **Code** | G01-OBJETIVOS-SMART |
+| **Version** | 3.0 |
+| **CMMI Area / Model** | Project Planning (PP) & Project Monitoring and Control (PMC) |
+| **Owner** | BTS Querétaro Engineering & Quality Team |
+| **Last Review** | 2026-10-05 |
+
+### Authors & Reviewers
+- **Original Authors (Taro IT)**: María de los Ángeles Contreras Anaya, Eduardo Andrés Castillo Perera, Adolfo Acosta Castro.
+- **Adaptation & Enhancement (BTS Querétaro)**: José Carlos Pasillas.
+- **Reviewer(s)**: BTS Querétaro Technical Leadership Team.
 
 ### Version Log
 
-| Version | Date | Key Changes |
-|:---:|:---:|---|
-| **3.0** | 2026-10 | Modernization for **BTS Querétaro**: drafting formula, Before vs. After comparison table, self-assessment checklist, Mermaid diagrams, and bilingual i18n support. |
-| **2.0** | - | Institutionalization of the asset as an official guide. |
-| **1.1** | - | Refactoring from process format into a guide. |
-| **1.0** | - | Initial creation of the goal definition process. |
+| Version | Date | Author | Key Changes |
+|:---:|:---:|---|---|
+| **3.0** | 2026-10 | José Carlos Pasillas | Modernization for BTS Querétaro: drafting formula, Before vs. After comparison table, self-assessment checklist, Mermaid diagrams, and template standardization. |
+| **2.0** | - | Taro IT | Institutionalization of the asset as an official guide. |
+| **1.1** | - | Taro IT | Refactoring from process format into a guide. |
+| **1.0** | - | Taro IT | Initial creation of the goal definition process. |

@@ -152,14 +152,44 @@ Antes de dar por formalizado tu objetivo, verifica si cumple con todos los punto
 
 ---
 
-## 👥 Control del Documento e Historial
+## 📦 Salidas y Entregables
 
-### Adaptación y Mejora Continua (BTS Querétaro)
-- **José Carlos Pasillas**
+Al completar satisfactoriamente esta guía, se obtienen los siguientes artefactos verificables:
+- **Declaración formal de Objetivo SMART**: Enunciado redactado bajo la fórmula estándar y validado con el checklist.
+- **Registro en Jira / Plan de Proyecto**: Ticket, meta o épica con criterios de aceptación cuantitativos y fecha límite establecida.
+
+---
+
+## 📚 Referencias y Lecturas Complementarias
+
+- 📖 **[There’s a S.M.A.R.T. way to write management’s goals and objectives](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf)** — *George T. Doran (1981, Management Review, Vol. 70, Issue 11)*. Artículo seminal que originó la metodología SMART.
+- 📖 **[Measure What Matters: OKRs](https://www.whatmatters.com/)** — *John Doerr (2018, Portfolio/Penguin)*. Metodología de Objetivos y Resultados Clave para conectar metas SMART con la visión organizacional.
+
+---
+
+## 👥 Control del Documento
+
+### Metadatos del Activo
+
+| Campo | Detalle |
+|---|---|
+| **Código** | G01-OBJETIVOS-SMART |
+| **Versión** | 3.0 |
+| **Área CMMI / Modelo** | Project Planning (PP) & Project Monitoring and Control (PMC) |
+| **Responsable / Owner** | Equipo de Ingeniería & Calidad BTS Querétaro |
+| **Última Revisión** | 2026-10-05 |
+
+### Autores y Revisores
+- **Autores Originales (Taro IT)**: María de los Ángeles Contreras Anaya, Eduardo Andrés Castillo Perera, Adolfo Acosta Castro.
+- **Adaptación y Mejora (BTS Querétaro)**: José Carlos Pasillas.
+- **Revisor(es)**: Equipo de Liderazgo Técnico BTS Querétaro.
 
 ### Bitácora de Versiones
 
-| Versión | Fecha | Cambios Principales |
-|:---:|:---:|---|
-| **1.0** | 2026-10 | Modernización para **BTS Querétaro**: integración de fórmula de redacción, tabla comparativa Antes vs. Después, checklist de autoevaluación, diagramas Mermaid y corrección de redacción. |
+| Versión | Fecha | Autor | Cambios Principales |
+|:---:|:---:|---|---|
+| **3.0** | 2026-10 | José Carlos Pasillas | Modernización para BTS Querétaro: integración de fórmula sintáctica, ejemplos comparativos, checklist interactivo, diagramas Mermaid y estandarización de plantilla. |
+| **2.0** | - | Taro IT | Institucionalización del asset como guía oficial. |
+| **1.1** | - | Taro IT | Refactorización de formato de proceso a guía. |
+| **1.0** | - | Taro IT | Creación de la versión inicial del proceso de definición de objetivos. |
 

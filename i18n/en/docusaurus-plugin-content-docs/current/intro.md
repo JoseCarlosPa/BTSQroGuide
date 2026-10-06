@@ -37,6 +37,14 @@ You can now check the team's first methodological guides:
 - 🎯 **[G01 - SMART Goals Definition](/docs/guias/g01-definicion-objetivos-smart)**: Criteria, drafting formula, comparative examples, and validation checklist.
 - 🌳 **[G02 - Root Cause Analysis: The 5 Whys (Nested Whys)](/docs/guias/g02-analisis-causa-raiz-5-porques)**: Sakichi Toyoda's technique for investigating failures, multi-dimensional branching, and systemic countermeasures.
 
+---
+
+## 📑 Templates & Standardization
+
+To ensure consistency and quality across portal documentation, we maintain standard base templates with the required minimum structure:
+- 📋 **[Standard Guide Template](/docs/plantillas/plantilla-guia)**: Official 9-section skeleton (objectives, scope, visual framework, steps, before/after examples, common pitfalls, deliverables, references, and document control).
+
 :::tip Want to suggest or collaborate?
 This site is built following the *Docs as Code* philosophy. All content is managed directly in our [GitHub Repository](https://github.com/JoseCarlosPa/BTSQroGuide).
 :::
+

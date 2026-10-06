@@ -117,7 +117,7 @@ Para validar la lógica de tu cadena de porqués, lee tu análisis en sentido in
 
 ---
 
-## ⚠️ Errores Frecuentes a Evitar
+## ⚠️ 6. Errores Frecuentes a Evitar
 
 1. **La trampa del "Error Humano"**: Decir *"el desarrollador se equivocó"* detiene el análisis. La verdadera pregunta es: *¿por qué el sistema o proceso permitió que un error humano llegara a producción sin ser detectado?*
 2. **Cadenas exclusivamente lineales**: Los problemas reales casi siempre combinan factores técnicos y de gestión. Utiliza ramas (*nested*).
@@ -126,22 +126,42 @@ Para validar la lógica de tu cadena de porqués, lee tu análisis en sentido in
 
 ---
 
-## 📚 Referencias Bibliográficas y Lecturas Recomendadas
+## 📦 7. Salidas y Entregables
 
-Para profundizar en el origen y evolución de esta metodología:
+Al completar satisfactoriamente un análisis con esta guía, se obtienen los siguientes artefactos:
+- **Diagrama de Árbol de Causa Raíz**: Mapa visual de porqués anidados documentando las ramas técnica, de proceso y de gestión.
+- **Plan de Contramedidas Sistémicas**: Tickets en Jira con acciones preventivas asignadas, fechas límite y criterios de validación.
+- **Registro Post-Mortem / Lecciones Aprendidas**: Documento archivado en la base de conocimiento para evitar la recurrencia del incidente.
+
+---
+
+## 📚 8. Referencias y Lecturas Complementarias
 
 - 📖 **[Toyota Production System: Beyond Large-Scale Production](https://www.goodreads.com/book/show/184411.Toyota_Production_System)** — *Taiichi Ohno (1988, Productivity Press)*. La obra fundamental donde se formaliza la práctica de los 5 Porqués dentro del sistema de producción de Toyota.
 - 📖 **[The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer](https://www.goodreads.com/book/show/17643.The_Toyota_Way)** — *Jeffrey K. Liker (2004, McGraw-Hill)*. Detalla el Principio 14 sobre convertirse en una organización de aprendizaje mediante la reflexión incansable (*Hansei*) y la mejora continua (*Kaizen*).
-- 📖 **[Toyota Kata: Managing People for Improvement, Adaptiveness and Superior Results](https://www.goodreads.com/book/show/6797747-toyota-kata)** — *Mike Rother (2009, McGraw-Hill)*. Excelente guía sobre cómo construir el hábito diario de resolución científica de problemas en equipos modernos.
+- 📖 **[Toyota Kata: Managing People for Improvement, Adaptiveness and Superior Results](https://www.goodreads.com/book/show/6797747-toyota-kata)** — *Mike Rother (2009, McGraw-Hill)*. Guía sobre cómo construir el hábito diario de resolución científica de problemas.
 - 🌐 **[Toyota Global: The Origin of 5 Whys](https://www.toyota-global.com/company/vision_philosophy/toyota_production_system/)** — Portal oficial de Toyota sobre los principios del Toyota Production System.
 
 ---
 
-## 👥 Control del Documento
+## 👥 9. Control del Documento
+
+### Metadatos del Activo
 
 | Campo | Detalle |
 |---|---|
 | **Código** | G02-CAUSA-RAIZ |
 | **Versión** | 1.0 |
-| **Área CMMI Asociada** | Causal Analysis and Resolution (CAR) & Verification (VER) |
-| **Responsable** | Equipo de Ingeniería & Calidad BTS Querétaro |
+| **Área CMMI / Modelo** | Causal Analysis and Resolution (CAR) & Verification (VER) |
+| **Responsable / Owner** | Equipo de Ingeniería & Calidad BTS Querétaro |
+| **Última Revisión** | 2026-10-05 |
+
+### Autores y Revisores
+- **Autor(es)**: José Carlos Pasillas & Equipo de Ingeniería BTS Querétaro.
+- **Revisor(es)**: Comité de Mejora Continua y Calidad BTS Querétaro.
+
+### Bitácora de Versiones
+
+| Versión | Fecha | Autor | Cambios Principales |
+|:---:|:---:|---|---|
+| **1.0** | 2026-10 | José Carlos Pasillas | Creación inicial de la guía metodológica de Causa Raíz y Porqués Anidados (*Nested Whys*). |

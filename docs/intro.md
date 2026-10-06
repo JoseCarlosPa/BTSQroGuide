@@ -37,6 +37,14 @@ Ya puedes consultar las primeras guías metodológicas del equipo:
 - 🎯 **[G01 - Definición de Objetivos SMART](/docs/guias/g01-definicion-objetivos-smart)**: Criterios, fórmula de redacción, ejemplos comparativos y checklist para formular objetivos claros y verificables.
 - 🌳 **[G02 - Análisis de Causa Raíz: 5 Porqués (Nested Whys)](/docs/guias/g02-analisis-causa-raiz-5-porques)**: Método de Sakichi Toyoda para investigar incidentes y defectos, ramificación multidimensional y contramedidas sistémicas.
 
+---
+
+## 📑 Plantillas y Estandarización
+
+Para asegurar la consistencia y calidad de la documentación del portal, disponemos de plantillas oficiales con la estructura mínima requerida:
+- 📋 **[Plantilla Estándar para Guías](/docs/plantillas/plantilla-guia)**: Esqueleto oficial de 9 secciones (objetivos, alcance, marco visual, pasos, ejemplos antes/después, errores comunes, entregables, referencias y control documental).
+
 :::tip ¿Quieres sugerir o colaborar?
 Este sitio está construido bajo la filosofía de *Docs as Code*. Todos los contenidos están gestionados en nuestro repositorio de [GitHub](https://github.com/JoseCarlosPa/BTSQroGuide).
 :::
+

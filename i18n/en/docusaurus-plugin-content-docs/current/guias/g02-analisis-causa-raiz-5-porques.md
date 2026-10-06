@@ -117,7 +117,7 @@ Validate the causal chain by reading it backwards using the word **"Therefore"**
 
 ---
 
-## ⚠️ Common Pitfalls to Avoid
+## ⚠️ 6. Common Pitfalls to Avoid
 
 1. **The "Human Error" Trap**: Concluding *"the engineer made a mistake"* halts investigation prematurely. The actual question is: *why did the system and processes allow a human mistake to reach production unnoticed?*
 2. **Strictly Linear Thinking**: Real-world incidents almost always involve technical and organizational factors. Use branched trees (*nested whys*).
@@ -126,9 +126,16 @@ Validate the causal chain by reading it backwards using the word **"Therefore"**
 
 ---
 
-## 📚 Book References & Further Reading
+## 📦 7. Outputs & Deliverables
 
-To explore the foundations and deeper applications of this methodology:
+Completing an investigation with this guide produces the following verifiable deliverables:
+- **Root Cause Tree Diagram**: Visual map of nested whys capturing technical, process, and organizational branches.
+- **Systemic Countermeasure Plan**: Assigned Jira tickets with preventative actions, target deadlines, and verification criteria.
+- **Post-Mortem / Lessons Learned Record**: Archived knowledge base entry preventing future incident recurrence.
+
+---
+
+## 📚 8. References & Further Reading
 
 - 📖 **[Toyota Production System: Beyond Large-Scale Production](https://www.goodreads.com/book/show/184411.Toyota_Production_System)** — *Taiichi Ohno (1988, Productivity Press)*. The seminal work formalizing the 5 Whys practice within Toyota's world-class manufacturing system.
 - 📖 **[The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer](https://www.goodreads.com/book/show/17643.The_Toyota_Way)** — *Jeffrey K. Liker (2004, McGraw-Hill)*. Details Principle 14 on becoming a learning organization through relentless reflection (*Hansei*) and continuous improvement (*Kaizen*).
@@ -137,11 +144,24 @@ To explore the foundations and deeper applications of this methodology:
 
 ---
 
-## 👥 Document Control
+## 👥 9. Document Control
+
+### Asset Metadata
 
 | Field | Detail |
 |---|---|
 | **Code** | G02-CAUSA-RAIZ |
 | **Version** | 1.0 |
-| **Associated CMMI Area** | Causal Analysis and Resolution (CAR) & Verification (VER) |
+| **CMMI Area / Model** | Causal Analysis and Resolution (CAR) & Verification (VER) |
 | **Owner** | BTS Querétaro Engineering & Quality Team |
+| **Last Review** | 2026-10-05 |
+
+### Authors & Reviewers
+- **Author(s)**: José Carlos Pasillas & BTS Querétaro Engineering Team.
+- **Reviewer(s)**: BTS Querétaro Continuous Improvement & Quality Committee.
+
+### Version Log
+
+| Version | Date | Author | Key Changes |
+|:---:|:---:|---|---|
+| **1.0** | 2026-10 | José Carlos Pasillas | Initial creation of the Root Cause Analysis and Nested Whys guide. |
